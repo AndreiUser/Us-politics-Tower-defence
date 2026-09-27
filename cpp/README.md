@@ -26,6 +26,15 @@ Then run it:
 - **Linux (Debian/Ubuntu/Raspberry Pi OS):**
   `sudo apt install build-essential cmake git libx11-dev libxrandr-dev libxinerama-dev libxcursor-dev libxi-dev libgl1-mesa-dev`
 
+### Raspberry Pi
+
+The Pi's GPU doesn't reliably support raylib's default OpenGL 3.3, so build with OpenGL 2.1:
+
+```sh
+cmake -B build -DOPENGL_VERSION="2.1"
+cmake --build build -j4
+```
+
 ## Controls
 
 | Action | Mouse / keyboard | Gamepad |
