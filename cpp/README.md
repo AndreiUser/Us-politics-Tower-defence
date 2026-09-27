@@ -28,6 +28,8 @@ Then run it:
 
 ### Raspberry Pi
 
+On Raspberry Pi OS (or any Debian/Ubuntu system), `./build-and-run.sh` installs the tools, builds the game and starts it. To do it by hand:
+
 The Pi's GPU doesn't reliably support raylib's default OpenGL 3.3, so build with OpenGL 2.1:
 
 ```sh
