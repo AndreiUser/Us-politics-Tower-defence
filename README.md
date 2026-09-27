@@ -2,6 +2,8 @@
 
 A compact, flash-style tower defense game with a 21st-century US politics theme. It's one `index.html` file with no build step. Open it in a browser to play.
 
+There is also a native desktop version in C++ with raylib, with gamepad support. See [`cpp/README.md`](cpp/README.md).
+
 **Goal:** keep your approval rating above 0% for 15 waves while mobs march down Pennsylvania Ave toward the Capitol.
 
 ## Defenses
